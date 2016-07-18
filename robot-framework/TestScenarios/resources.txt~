@@ -1,0 +1,17 @@
+*** Settings ***
+Library             ExtendedSelenium2Library
+
+*** Variables ***
+${Browser}          Firefox
+${Chrome}           chrome
+${SiteUrl}          http://localhost:3000/
+${InvalidUser}      asd
+${InvalidPassword}  asdasd
+${ValidUser}        admin
+${ValidPassword}    admin
+${LoginTitle}       Login
+
+*** Keywords ***
+Open Browser To Login Page
+   open browser    ${SiteUrl}    ${Browser}
+title should be ${LoginTitle}
