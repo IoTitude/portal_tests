@@ -14,4 +14,4 @@ ${LoginTitle}       Portal
 *** Keywords ***
 Open Browser To Login Page
    open browser    ${SiteUrl}    ${Browser}
-title should be ${LoginTitle}
+   title should be ${LoginTitle}
