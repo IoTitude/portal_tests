@@ -1,7 +1,7 @@
 .. default-role:: code
 
 ============
-Scenario 1
+Scenario 2
 ============
 
 Browser: Firefox
@@ -12,7 +12,7 @@ Browser: Firefox
    :depth: 2
 
 =================
-Scenario 1 Tests
+Scenario 2 Tests
 =================
 
 
