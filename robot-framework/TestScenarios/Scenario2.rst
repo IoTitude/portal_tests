@@ -34,47 +34,47 @@ Scenario 2 Tests
 
    *** Test Cases ***
    Try To Login
-    Invalid Login
+       Invalid Login
     
 .. code:: robotframework
 
    *** Test Cases ***
    Successful Login
-    Valid Login
+       Valid Login
       
 .. code:: robotframework
 
    *** Test Cases ***
   To Kamulist
-    Navigate To Kamulist 
+       Navigate To Kamulist 
     
 .. code:: robotframework
 
    *** Test Cases ***
   Set Version
-    Click Element    //a[@href='/kamulist/00-00-00-00-00-01']
-    Click Element    //option[contains(.,'0.4.4')]
-    Click Element    //option[contains(.,'0.4.4')]
+       Click Element    //a[@href='/kamulist/00-00-00-00-00-01']
+       Click Element    //option[contains(.,'0.4.4')]
+       Click Element    //option[contains(.,'0.4.4')]
     
     
 .. code:: robotframework
 
    *** Test Cases ***
   Check Version
-    Navigate To Kamulist
+       Navigate To Kamulist
     
 .. code:: robotframework
 
    *** Test Cases ***
   Resize and Download
-    Navigate To Status
-    Navigate To Download
+       Navigate To Status
+       Navigate To Download
     
     
 .. code:: robotframework
 
    *** Test Cases ***
   Logout and Close
-    Logout
-    Sleep    1
-    Close Browser
+       Logout
+       Sleep    1
+       Close Browser
