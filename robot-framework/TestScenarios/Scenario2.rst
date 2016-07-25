@@ -45,7 +45,7 @@ Scenario 2 Tests
 .. code:: robotframework
 
    *** Test Cases ***
-  To Kamulist
+  Kamulist
        Navigate To Kamulist 
     
 .. code:: robotframework
