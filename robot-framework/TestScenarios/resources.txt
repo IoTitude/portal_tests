@@ -16,27 +16,27 @@ Open Browser To Login Page
    open browser    ${SiteUrl}    ${Browser}
    title should be     ${LoginTitle}
    
-   Invalid Login
-    Input Text    //input[@name='username']    ${InvalidUser}
-    Input Text    //input[@name='password']    ${InvalidPassword}
-    Click Element    //button[contains(.,'login')]
+Invalid Login
+   Input Text    //input[@name='username']    ${InvalidUser}
+   Input Text    //input[@name='password']    ${InvalidPassword}
+   Click Element    //button[contains(.,'login')]
     
-   Valid Login
-    Input Text    //input[@name='username']    ${ValidUser}
-    Input Text    //input[@name='password']    ${ValidPassword}
-    Click Element    //button[contains(.,'login')]
+Valid Login
+   Input Text    //input[@name='username']    ${ValidUser}
+   Input Text    //input[@name='password']    ${ValidPassword}
+   Click Element    //button[contains(.,'login')]
     
-   Navigate To Kamulist
-    Click Element    //a[@href='/kamulist']
+Navigate To Kamulist
+   Click Element    //a[@href='/kamulist']
     
-   Navigate To Status
-    Click Element    //a[@href='/status']
+Navigate To Status
+   Click Element    //a[@href='/status']
     
-   Navigate To Download
-    Click Element    //a[@href='/download']
-    Click Element    //option[contains(.,'2016')]
-    Click Element    //option[contains(.,'July')]
+Navigate To Download
+   Click Element    //a[@href='/download']
+   Click Element    //option[contains(.,'2016')]
+   Click Element    //option[contains(.,'July')]
     
-  Logout
-    Click Element    //a[contains(.,'Logout')]
+Logout
+   Click Element    //a[contains(.,'Logout')]
     
